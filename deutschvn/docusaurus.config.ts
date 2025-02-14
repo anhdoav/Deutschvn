@@ -5,9 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Deutsch.vn',
+  tagline: 'Cộng đồng học tiếng Đức dành cho bạn!',
+  favicon: 'img/avt.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
