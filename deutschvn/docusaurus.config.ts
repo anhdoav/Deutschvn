@@ -74,31 +74,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'a1NiveauSidebar',
-          position: 'left',
-          label: 'A1 Niveau',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'a2NiveauSidebar',
-          position: 'left',
-          label: 'A2 Niveau',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'b1NiveauSidebar',
-          position: 'left',
-          label: 'B1 Niveau',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'hosoSidebar',
-          position: 'left',
-          label: 'Hồ Sơ',
+          label: 'Bài học',
         }
       ],
     },
