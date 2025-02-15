@@ -76,7 +76,30 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'}
+        {
+          type: 'docSidebar',
+          sidebarId: 'a1NiveauSidebar',
+          position: 'left',
+          label: 'A1 Niveau',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'a2NiveauSidebar',
+          position: 'left',
+          label: 'A2 Niveau',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'b1NiveauSidebar',
+          position: 'left',
+          label: 'B1 Niveau',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'hosoSidebar',
+          position: 'left',
+          label: 'Hồ Sơ',
+        }
       ],
     },
     footer: {
