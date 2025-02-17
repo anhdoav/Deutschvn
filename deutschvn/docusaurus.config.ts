@@ -90,12 +90,6 @@ const config: Config = {
           position: 'left',
           label: 'Tiếng Đức',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
