@@ -1,0 +1,107 @@
+/* ======= Căn chỉnh trang chính ======= */
+/* ======= Căn chỉnh trang chính ======= */
+.pageContainer {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center; /* Căn giữa toàn bộ nội dung */
+}
+
+/* ======= Phần Đội Ngũ Sáng Lập ======= */
+.founderSection {
+  margin-top: 50px; /* Cách xa phần trên để dễ đọc */
+  padding-top: 30px;
+  border-top: 1px solid #ddd; /* Đường kẻ nhẹ để phân tách */
+}
+
+.founderTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.readMore {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.readMore a {
+  color: #f39c12; /* Màu nổi bật */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.readMore a:hover {
+  text-decoration: underline;
+}
+  
+  /* ======= Tổng thể section ======= */
+  .section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 80px;
+  }
+  
+  /* ======= Container 2 cột ======= */
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Giảm khoảng cách giữa ảnh và nội dung */
+  }
+  
+  /* Hình ảnh bên trái */
+  .imageWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Căn giữa ảnh */
+  }
+  
+  .image {
+    max-width: 90%; /* Giữ ảnh nhỏ hơn để cân đối */
+    height: auto;
+    max-height: 400px; /* Đặt chiều cao tối đa */
+    object-fit: contain;
+  }
+  
+  /* Văn bản bên phải */
+  .text {
+    flex: 1;
+    text-align: left;
+  }
+  
+  /* Tiêu đề phụ */
+  .heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 18px; /* Giảm khoảng cách giữa tiêu đề và nội dung */
+  }
+  
+  /* Nội dung mô tả */
+  .description {
+    font-size: 16px;
+    font-weight: Regular;
+    color: #444;
+    line-height: 1.5; /* Giảm khoảng cách dòng */
+  }
+  
+  /* Responsive cho màn hình nhỏ */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px; /* Giảm khoảng cách giữa ảnh và nội dung trên mobile */
+    }
+  
+    .imageWrapper {
+      order: -1;
+    }
+  
+    .image {
+      max-width: 60%;
+    }
+  
+    .text {
+      text-align: center;
+    }
+  }
+  

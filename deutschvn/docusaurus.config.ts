@@ -90,6 +90,21 @@ const config: Config = {
           position: 'left',
           label: 'Tiếng Đức',
         },
+        {
+          type: 'dropdown',
+          label: 'Giới thiệu',
+          position: 'left',
+          items: [
+            {
+              label: 'Dự án',
+              to: '/uberdeutsch',
+            },
+            {
+              label: 'Đội nhóm',
+              to: '/founder',
+            },
+          ],
+        },        
       ],
     },
     footer: {
