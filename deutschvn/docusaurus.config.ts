@@ -81,19 +81,37 @@ const config: Config = {
       title: 'Deutsch.vn',
       logo: {
         alt: 'Deutsch.vn',
-        src: 'img/avt.jpeg',
+        src: 'img/blank.png',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'tutorialA1Sidebar',
           position: 'left',
-          label: 'Tiếng Đức',
+          label: 'A1 Niveau',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialA2Sidebar',
+          position: 'left',
+          label: 'A2 Niveau',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialB1Sidebar',
+          position: 'left',
+          label: 'B1 Niveau',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialDuHocSidebar',
+          position: 'left',
+          label: 'Du Học',
         },
         {
           type: 'dropdown',
           label: 'Giới thiệu',
-          position: 'left',
+          position: 'right',
           items: [
             {
               label: 'Dự án',
@@ -108,44 +126,32 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
-          title: 'Docs',
+          title: 'Deutsch.vn',
+          items: [            
+          ],
+        },
+        {
+          title: 'Cộng đồng',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/deutschvn/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Thông tin',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Dự án',
+              to: '/uberdeutsch',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Đội nhóm',
+              href: '/founder',
             },
           ],
         },
