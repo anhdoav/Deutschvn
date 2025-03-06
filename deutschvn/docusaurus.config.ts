@@ -74,6 +74,16 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      require.resolve('docusaurus-lunr-search'),
+      {
+        languages: ['de', 'vi'],
+        highlightResult: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/avt.jpeg',
