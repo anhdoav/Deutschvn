@@ -53,13 +53,13 @@ Hồ sơ bao gồm:
 
 ### **2. Các bước xử lý hồ sơ**
 
-✅ **Bước 1: Sao y bản chính**  
+ **Bước 1: Sao y bản chính**  
 Photo bản sao và chứng thực tại Ủy ban Quận có đăng ký chữ ký mẫu với Bộ Ngoại giao.
 
-✅ **Bước 2: Dịch thuật và công chứng bản dịch**  
+ **Bước 2: Dịch thuật và công chứng bản dịch**  
 Dịch thuật sang **tiếng Đức** hoặc **tiếng Anh** và công chứng tại Phòng Tư pháp Quận.
 
-✅ **Bước 3: Hợp pháp hóa lãnh sự Việt Nam**  
+ **Bước 3: Hợp pháp hóa lãnh sự Việt Nam**  
 Xác nhận tại **Bộ Ngoại giao Việt Nam**:
 
 - **Hà Nội**: 40 Trần Phú, Ba Đình
@@ -67,7 +67,7 @@ Xác nhận tại **Bộ Ngoại giao Việt Nam**:
 - **TP.HCM**: 184 Bis Pasteur, Quận 1
     
 
-✅ **Bước 4: Hợp pháp hóa lãnh sự tại Đại sứ quán Áo**
+ **Bước 4: Hợp pháp hóa lãnh sự tại Đại sứ quán Áo**
 
 - **Địa chỉ**: 53 Quang Trung, Hai Bà Trưng, Hà Nội
     
@@ -75,7 +75,7 @@ Xác nhận tại **Bộ Ngoại giao Việt Nam**:
     🔗 [Thông tin chi tiết](https://www.bmeia.gv.at/vi/oeb-hanoi/service-fuer-buergerinnen/beglaubigung/)
     
 
-✅ **Bước 5: Nộp hồ sơ**
+ **Bước 5: Nộp hồ sơ**
 
 - 📧 **Online** (VD: Universität Wien: [uspace.univie.ac.at](https://uspace.univie.ac.at/web/gast))
     
@@ -122,23 +122,23 @@ Xác nhận tại **Bộ Ngoại giao Việt Nam**:
 
 ## **I. Việc cần làm ngay khi tới Áo**
 
-✔️ **Đăng ký cư trú (Melderzettel)** _(trong 3 ngày)_
+ ️ **Đăng ký cư trú (Melderzettel)** _(trong 3 ngày)_
 
 - Mẫu đơn: [help.gv.at](https://www.help.gv.at/Portal.Node/hlpd/public/resources/documents/Meldez.pdf)
     
 - Nộp tại văn phòng cư trú của quận: [wien.gv.at](https://www.wien.gv.at/meldetermin/internet/Startseite.aspx)
     
 
-✔️ **Mở tài khoản ngân hàng** _(khuyến nghị Erste Bank)_
+ ️ **Mở tài khoản ngân hàng** _(khuyến nghị Erste Bank)_
 
-✔️ **Đăng ký học tiếng Đức tại Sprachzentrum der Universität Wien**  
+ ️ **Đăng ký học tiếng Đức tại Sprachzentrum der Universität Wien**  
 🔗 [Thông tin khóa học](https://sprachenzentrum.univie.ac.at/deutschkurse/deutschkurse-fuer-den-vwu/)
 
-✔️ **Mua bảo hiểm ÖGK** _(~63,44 Euro/tháng)_
+ ️ **Mua bảo hiểm ÖGK** _(~63,44 Euro/tháng)_
 
-✔️ **Nhận thẻ cư trú tại MA35** _(Địa chỉ: Dresdner Str. 93/Block C, 1200 Wien)_
+ ️ **Nhận thẻ cư trú tại MA35** _(Địa chỉ: Dresdner Str. 93/Block C, 1200 Wien)_
 
-✔️ **Gia hạn thẻ cư trú mỗi năm** _(Lệ phí 160 Euro)_
+ ️ **Gia hạn thẻ cư trú mỗi năm** _(Lệ phí 160 Euro)_
 
 ---
 

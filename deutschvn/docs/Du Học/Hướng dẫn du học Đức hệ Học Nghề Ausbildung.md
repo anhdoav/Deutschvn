@@ -45,24 +45,24 @@ Hồ sơ bao gồm:
 
 ### **2. Các bước xử lý hồ sơ**
 
-✅ **Bước 1: Tìm kiếm nhà tuyển dụng hoặc trường nghề**
+ **Bước 1: Tìm kiếm nhà tuyển dụng hoặc trường nghề**
 
 - Các bạn có thể tìm qua các trang web chính thức:
     - [make-it-in-germany.com](https://www.make-it-in-germany.com/)
     - [arbeitsagentur.de](https://www.arbeitsagentur.de/)
     - [azubiyo.de](https://www.azubiyo.de/)
 
-✅ **Bước 2: Nộp hồ sơ**
+ **Bước 2: Nộp hồ sơ**
 
 - Gửi email trực tiếp đến trường hoặc công ty.
 - Nếu nhận được thư mời hoặc hợp đồng học nghề, tiếp tục bước tiếp theo.
 
-✅ **Bước 3: Dịch thuật và công chứng hồ sơ**
+ **Bước 3: Dịch thuật và công chứng hồ sơ**
 
 - **Dịch thuật công chứng** bằng tốt nghiệp, bảng điểm, chứng chỉ tiếng Đức.
 - **Hợp pháp hóa lãnh sự** tại Đại sứ quán Đức tại Việt Nam.
 
-✅ **Bước 4: Xin visa du học nghề Đức**
+ **Bước 4: Xin visa du học nghề Đức**
 
 - 📅 **Đặt lịch hẹn tại Đại sứ quán Đức:** [vietnam.diplo.de](https://vietnam.diplo.de/)
 - Hồ sơ visa bao gồm:
@@ -82,26 +82,26 @@ Hồ sơ bao gồm:
 
 ## **I. Việc cần làm ngay khi tới Đức**
 
-✔️ **Đăng ký cư trú (Anmeldung)** _(trong 2 tuần đầu)_
+ ️ **Đăng ký cư trú (Anmeldung)** _(trong 2 tuần đầu)_
 
 - Đến **Bürgeramt** để đăng ký địa chỉ tạm trú.
 - Mẫu đơn: [service.berlin.de](https://service.berlin.de/)
 
-✔️ **Mở tài khoản ngân hàng** _(khuyến nghị Deutsche Bank, Sparkasse, N26...)_
+ ️ **Mở tài khoản ngân hàng** _(khuyến nghị Deutsche Bank, Sparkasse, N26...)_
 
-✔️ **Mua bảo hiểm y tế** _(AOK, TK, Barmer... tùy theo yêu cầu của công ty/trường nghề)_
+ ️ **Mua bảo hiểm y tế** _(AOK, TK, Barmer... tùy theo yêu cầu của công ty/trường nghề)_
 
-✔️ **Nhận thẻ cư trú (Aufenthaltstitel)**
+ ️ **Nhận thẻ cư trú (Aufenthaltstitel)**
 
 - Nộp đơn tại **Ausländerbehörde**.
 - Lệ phí: khoảng **110 Euro**.
 
-✔️ **Bắt đầu chương trình học nghề**
+ ️ **Bắt đầu chương trình học nghề**
 
 - Nếu là **Duale Ausbildung**, công ty sẽ hướng dẫn thời gian làm việc.
 - Nếu là **Schulische Ausbildung**, trường sẽ có lịch học cụ thể.
 
-✔️ **Gia hạn thẻ cư trú hàng năm** _(cung cấp giấy chứng nhận học tập và hợp đồng tiếp tục học nghề)_.
+ ️ **Gia hạn thẻ cư trú hàng năm** _(cung cấp giấy chứng nhận học tập và hợp đồng tiếp tục học nghề)_.
 
 ---
 

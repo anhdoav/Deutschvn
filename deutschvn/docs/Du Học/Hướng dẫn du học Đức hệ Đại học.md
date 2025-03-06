@@ -43,20 +43,20 @@ Hồ sơ bao gồm:
 
 ### **2. Các bước xử lý hồ sơ**
 
-✅ **Bước 1: Chọn trường và ngành học**
+ **Bước 1: Chọn trường và ngành học**
 
 - Tìm kiếm thông tin trên DAAD, Hochschulkompass hoặc website của từng trường.
 
-✅ **Bước 2: Nộp hồ sơ qua Uni-Assist hoặc trực tiếp**
+ **Bước 2: Nộp hồ sơ qua Uni-Assist hoặc trực tiếp**
 
 - **Uni-Assist** ([uni-assist.de](https://www.uni-assist.de/)) xử lý hồ sơ cho nhiều trường Đại học tại Đức.
 - Một số trường cho phép nộp hồ sơ trực tiếp qua cổng trường.
 
-✅ **Bước 3: Chờ kết quả Zulassung**
+ **Bước 3: Chờ kết quả Zulassung**
 
 - Nếu đủ điều kiện, trường sẽ gửi giấy Zulassung qua email hoặc bưu điện.
 
-✅ **Bước 4: Xin visa du học Đức** 📅 **Đặt lịch hẹn tại Đại sứ quán Đức:** [vietnam.diplo.de](https://vietnam.diplo.de/)
+ **Bước 4: Xin visa du học Đức** 📅 **Đặt lịch hẹn tại Đại sứ quán Đức:** [vietnam.diplo.de](https://vietnam.diplo.de/)
 
 📜 **Hồ sơ visa bao gồm:**
 
@@ -75,26 +75,26 @@ Hồ sơ bao gồm:
 
 ## **I. Việc cần làm ngay khi tới Đức**
 
-✔️ **Đăng ký cư trú (Anmeldung)** _(trong 2 tuần đầu)_
+ ️ **Đăng ký cư trú (Anmeldung)** _(trong 2 tuần đầu)_
 
 - Đến **Bürgeramt** để đăng ký địa chỉ tạm trú.
 - Mẫu đơn: [service.berlin.de](https://service.berlin.de/)
 
-✔️ **Mở tài khoản ngân hàng** _(khuyến nghị Deutsche Bank, Sparkasse, N26...)_
+ ️ **Mở tài khoản ngân hàng** _(khuyến nghị Deutsche Bank, Sparkasse, N26...)_
 
-✔️ **Mua bảo hiểm y tế** _(AOK, TK, Barmer... tùy theo yêu cầu của trường)_
+ ️ **Mua bảo hiểm y tế** _(AOK, TK, Barmer... tùy theo yêu cầu của trường)_
 
-✔️ **Nhận thẻ cư trú (Aufenthaltstitel)**
+ ️ **Nhận thẻ cư trú (Aufenthaltstitel)**
 
 - Nộp đơn tại **Ausländerbehörde**.
 - Lệ phí: khoảng **110 Euro**.
 
-✔️ **Nhập học chính thức**
+ ️ **Nhập học chính thức**
 
 - Hoàn thành thủ tục nhập học tại trường Đại học.
 - Nhận **thẻ sinh viên** và thông tin đăng ký khóa học.
 
-✔️ **Gia hạn thẻ cư trú hàng năm** _(cung cấp giấy chứng nhận học tập và kết quả học tập)._
+ ️ **Gia hạn thẻ cư trú hàng năm** _(cung cấp giấy chứng nhận học tập và kết quả học tập)._
 
 ---
 

@@ -42,23 +42,23 @@ Hồ sơ bao gồm:
 
 ### **2. Các bước xử lý hồ sơ**
 
-✅ **Bước 1: Tìm kiếm và liên hệ với trường**
+ **Bước 1: Tìm kiếm và liên hệ với trường**
 
 - Học sinh hoặc phụ huynh gửi email đến trường hoặc văn phòng giáo dục tại Áo để hỏi về điều kiện tuyển sinh.
 
-✅ **Bước 2: Nộp hồ sơ**
+ **Bước 2: Nộp hồ sơ**
 
 - Gửi hồ sơ qua email hoặc bưu điện theo hướng dẫn của trường.
 
-✅ **Bước 3: Làm bài kiểm tra đầu vào hoặc phỏng vấn**
+ **Bước 3: Làm bài kiểm tra đầu vào hoặc phỏng vấn**
 
 - Một số trường có thể yêu cầu học sinh làm bài kiểm tra tiếng Đức hoặc phỏng vấn trực tuyến.
 
-✅ **Bước 4: Nhận thư mời nhập học (Zulassung)**
+ **Bước 4: Nhận thư mời nhập học (Zulassung)**
 
 - Nếu được chấp nhận, trường sẽ gửi **giấy nhập học chính thức**.
 
-✅ **Bước 5: Xin visa du học Áo** 📅 **Đặt lịch hẹn tại Đại sứ quán Áo:** [bmeia.gv.at](https://www.bmeia.gv.at/)
+ **Bước 5: Xin visa du học Áo** 📅 **Đặt lịch hẹn tại Đại sứ quán Áo:** [bmeia.gv.at](https://www.bmeia.gv.at/)
 
 📜 **Hồ sơ visa bao gồm:**
 
@@ -78,26 +78,26 @@ Hồ sơ bao gồm:
 
 ## **I. Việc cần làm ngay khi tới Áo**
 
-✔️ **Đăng ký cư trú (Meldezettel)** _(trong 3 ngày đầu)_
+ ️ **Đăng ký cư trú (Meldezettel)** _(trong 3 ngày đầu)_
 
 - Đến văn phòng đăng ký cư trú của quận để khai báo địa chỉ.
 - Mẫu đơn: [wien.gv.at](https://www.wien.gv.at/meldetermin/internet/Startseite.aspx)
 
-✔️ **Mở tài khoản ngân hàng** _(khuyến nghị Erste Bank, Raiffeisen, Sparkasse...)_
+ ️ **Mở tài khoản ngân hàng** _(khuyến nghị Erste Bank, Raiffeisen, Sparkasse...)_
 
-✔️ **Mua bảo hiểm y tế** _(ÖGK, UNIQA, Wiener Städtische, tùy theo yêu cầu của trường)_
+ ️ **Mua bảo hiểm y tế** _(ÖGK, UNIQA, Wiener Städtische, tùy theo yêu cầu của trường)_
 
-✔️ **Nhận thẻ cư trú (Aufenthaltstitel)**
+ ️ **Nhận thẻ cư trú (Aufenthaltstitel)**
 
 - Nộp đơn tại **MA35 (ở Vienna)** hoặc cơ quan di trú địa phương.
 - Lệ phí: khoảng **160 Euro**.
 
-✔️ **Nhập học chính thức**
+ ️ **Nhập học chính thức**
 
 - Hoàn thành thủ tục nhập học tại trường Trung học.
 - Nhận **lịch học** và thông tin trường lớp.
 
-✔️ **Gia hạn thẻ cư trú hàng năm** _(cung cấp giấy chứng nhận học tập và kết quả học tập hàng năm)._
+ ️ **Gia hạn thẻ cư trú hàng năm** _(cung cấp giấy chứng nhận học tập và kết quả học tập hàng năm)._
 
 ---
 
