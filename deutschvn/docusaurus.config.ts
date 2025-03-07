@@ -167,6 +167,10 @@ const config: Config = {
               label: 'Đội nhóm',
               href: '/founder',
             },
+            {
+              label: 'Liên hệ',
+              href: '/contact',
+            },
           ],
         },
       ],
