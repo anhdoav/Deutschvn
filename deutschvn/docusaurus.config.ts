@@ -125,21 +125,6 @@ const config: Config = {
           position: 'left',
           label: 'Du Học',
         },
-        {
-          type: 'dropdown',
-          label: 'Giới thiệu',
-          position: 'right',
-          items: [
-            {
-              label: 'Dự án',
-              to: '/uberdeutsch',
-            },
-            {
-              label: 'Đội nhóm',
-              to: '/founder',
-            },
-          ],
-        },
       ],
     },
     footer: {
@@ -156,6 +141,18 @@ const config: Config = {
             {
               label: 'Instagram',
               href: 'https://www.instagram.com/deutschvn/',
+            },
+            {
+              label: 'Facebook',
+              href: 'https://www.facebook.com/deutschvie',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/4sN7u8QV',
+            },
+            {
+              label: 'ChatGPT',
+              href: 'https://chatgpt.com/g/g-677d66e815c881919a94fe63ffdd6371-deutsch-vn',
             },
           ],
         },

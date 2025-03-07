@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.section {  
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1.2rem;
+  color: rgb(115, 110, 110);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-family: 'Itim', cursive; /* Font Itim cho chữ nhỏ */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Chia thành 4 cột */
+  gap: 5rem;
+  justify-content: center;
+  align-items: start;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 200px; /* Kích thước ảnh hợp lý */
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: grey;
+  line-height: 1.5;
+  font-family: 'Itim', cursive; /* Font Itim cho chữ nhỏ */
+}

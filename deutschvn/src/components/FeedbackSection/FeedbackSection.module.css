@@ -1,0 +1,94 @@
+.section {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 3rem;
+    text-align: left; /* Căn lề trái */
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Giữ bố cục 3 cột */
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  /* Responsive: Khi màn hình nhỏ hơn 1024px, vẫn giữ 3 cột nhưng co giãn */
+  @media (max-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(3, minmax(250px, 1fr));
+    }
+  }
+  
+  /* Khi màn hình nhỏ hơn 768px, đổi thành 2 cột */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+  }
+  
+  /* Khi màn hình rất nhỏ (điện thoại), đổi thành 1 cột */
+  @media (max-width: 480px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    border: 2px solid #e0e0e0;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Đẩy nội dung lên trên, avatar xuống dưới */
+    min-height: 180px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .message {
+    font-size: 1.1rem;
+    color: black;
+    margin-bottom: 1rem;
+    flex-grow: 1; /* Đẩy nội dung lên trên */
+  }
+  
+  /* Căn avatar, tên, description xuống dưới và lề trái */
+  .userInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+  margin-top: auto;
+  padding-left: 10px; /* Căn lề trái */
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.5px; /* Giảm khoảng cách giữa tên và mô tả */
+}
+
+.description {
+  font-size: 0.9rem;
+  color: grey;
+  margin-top: 0; /* Loại bỏ khoảng cách trên của mô tả */
+}
