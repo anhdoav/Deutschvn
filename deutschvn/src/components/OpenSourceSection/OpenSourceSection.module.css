@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3rem 1rem;
 }
 
 .container {
@@ -14,11 +15,13 @@
   gap: 3rem;
 }
 
+/* Ảnh */
 .imageContainer img {
   width: 300px; /* Điều chỉnh kích thước ảnh */
   height: auto;
 }
 
+/* Nội dung */
 .textContainer {
   max-width: 500px;
 }
@@ -45,4 +48,31 @@
 /* Đảo ngược layout nếu cần */
 .reverse .container {
   flex-direction: row-reverse;
+}
+
+/* 🔥 RESPONSIVE CHO MOBILE */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Chuyển layout thành dọc */
+    gap: 2rem; /* Tạo khoảng cách giữa ảnh và chữ */
+    text-align: center;
+  }
+
+  .imageContainer img {
+    width: 80%; /* Giảm kích thước ảnh cho mobile */
+    max-width: 250px; /* Đảm bảo ảnh không quá to */
+  }
+
+  .textContainer {
+    max-width: 100%; /* Chữ căn giữa và chiếm toàn bộ chiều rộng */
+  }
+
+  .title {
+    font-size: 1.5rem; /* Giảm nhẹ kích thước tiêu đề */
+  }
+
+  .description {
+    font-size: 1rem; /* Giảm kích thước chữ mô tả */
+    padding: 0 1rem; /* Thêm padding để dễ đọc hơn */
+  }
 }

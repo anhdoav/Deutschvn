@@ -1,64 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 .heroSection {
-    position: relative;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    display: flex;    
-    justify-content: center; /* Căn lề trái */
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-  }
-  
-  .textContainer {
-    max-width: 600px;
-    color: black; /* Chữ màu đen */
-    text-align: left; /* Căn lề trái */
-    display: inline-block;
-  }
-  
-  h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-  
-  p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-  }
-  
-  .button {
-    background-color: black;
-    color: white;
-    padding: 12px 24px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    margin-top: 1.5rem;
-    border-radius: 5px;
-    text-align: left;
-  }
-  
-  .icons {
-    display: flex;
-    gap: 25px;
-    margin-top: 1.5rem;
-  }
-  
-  .iconItem {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .iconItem img {
-    width: 40px;
-    height: 40px;
+  position: relative;
+  width: 100%;
+  height: auto; /* Điều chỉnh tự động theo nội dung */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 4rem 2rem; /* Điều chỉnh khoảng cách hợp lý */
+}
+
+/* Chỉnh lại khoảng cách giữa các phần */
+.textContainer {
+  max-width: 600px;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 1rem; /* Tạo khoảng cách với phần dưới */
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem; /* Tạo khoảng cách giữa chữ và nút */
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem; /* Tạo khoảng cách với phần trên */
+  margin-bottom: 1.5rem; /* Tạo khoảng cách với icon */
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Điều chỉnh icon */
+.icons {
+  position: relative; /* Không để tuyệt đối để tránh bị đẩy sát đáy */
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem; /* Tạo khoảng cách hợp lý với nút */
+}
+
+/* Icon nhỏ lại */
+.iconItem img {
+  width: 30px;
+  height: 30px;
+}
+
+/* RESPONSIVE CHO MOBILE */
+@media (max-width: 768px) {
+  .heroSection {
+    padding: 3rem 1.5rem; /* Giữ khoảng cách hợp lý */
   }
 
-  .backgroundImage {
-    padding-left: 2rem;
-    width: 400px;
-    height: 400px;
+  .textContainer {
+    max-width: 90%;
   }
-  
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .icons {
+    margin-top: 1rem;
+    gap: 10px;
+  }
+
+  .iconItem img {
+    width: 25px;
+    height: 25px;
+  }
+}

@@ -42,3 +42,34 @@
   color: black;
   margin-bottom: 0.8rem;
 }
+
+/* 🔥 RESPONSIVE CHO ĐIỆN THOẠI */
+@media (max-width: 768px) {
+  .section {
+    padding: 2rem 1rem; /* Giảm padding trên mobile */
+    flex-direction: column; /* Chuyển sang bố cục dọc */
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column; /* Xếp dọc các phần tử */
+    text-align: center;
+  }
+
+  .left {
+    padding-right: 0; /* Loại bỏ khoảng cách phải */
+    margin-bottom: 1rem; /* Tạo khoảng cách giữa tiêu đề và nội dung */
+  }
+
+  .left h2 {
+    font-size: 1.8rem; /* Giảm kích thước chữ tiêu đề */
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .right p {
+    font-size: 0.95rem; /* Giảm nhẹ kích thước chữ */
+  }
+}

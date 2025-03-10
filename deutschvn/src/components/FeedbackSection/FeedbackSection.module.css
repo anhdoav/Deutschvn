@@ -1,71 +1,90 @@
 .section {
-    padding-left: 15rem;
-    padding-right: 15rem;
-    padding-bottom: 3rem;
-    text-align: left; /* Căn lề trái */
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-bottom: 3rem;
+  text-align: left; /* Căn lề trái */
+}
+
+/* Giảm padding trên màn hình nhỏ để không bị quá rộng */
+@media (max-width: 1024px) {
+  .section {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
-  
-  .title {
-    font-size: 2rem;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
-  
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Giữ bố cục 3 cột */
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* Responsive: Khi màn hình nhỏ hơn 1024px, vẫn giữ 3 cột nhưng co giãn */
+@media (max-width: 1024px) {
   .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Giữ bố cục 3 cột */
-    gap: 1.5rem;
-    justify-content: center;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
   }
-  
-  /* Responsive: Khi màn hình nhỏ hơn 1024px, vẫn giữ 3 cột nhưng co giãn */
-  @media (max-width: 1024px) {
-    .grid {
-      grid-template-columns: repeat(3, minmax(250px, 1fr));
-    }
+}
+
+/* Khi màn hình nhỏ hơn 768px, đổi thành 2 cột */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 1rem; /* Giảm khoảng cách giữa các card */
   }
-  
-  /* Khi màn hình nhỏ hơn 768px, đổi thành 2 cột */
-  @media (max-width: 768px) {
-    .grid {
-      grid-template-columns: repeat(2, minmax(250px, 1fr));
-    }
+}
+
+/* Khi màn hình rất nhỏ (điện thoại), đổi thành 1 cột */
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
   }
-  
-  /* Khi màn hình rất nhỏ (điện thoại), đổi thành 1 cột */
-  @media (max-width: 480px) {
-    .grid {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  .card {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
-    border: 2px solid #e0e0e0;
-    transition: transform 0.2s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Đẩy nội dung lên trên, avatar xuống dưới */
-    min-height: 180px;
-  }
-  
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  border: 2px solid #e0e0e0;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Đẩy nội dung lên trên, avatar xuống dưới */
+  min-height: 180px;
+}
+
+/* Hiệu ứng hover chỉ trên màn hình lớn */
+@media (min-width: 768px) {
   .card:hover {
     transform: translateY(-5px);
   }
-  
-  .message {
-    font-size: 1.1rem;
-    color: black;
-    margin-bottom: 1rem;
-    flex-grow: 1; /* Đẩy nội dung lên trên */
-  }
-  
-  /* Căn avatar, tên, description xuống dưới và lề trái */
-  .userInfo {
+}
+
+.message {
+  font-size: 1.1rem;
+  color: black;
+  margin-bottom: 1rem;
+  flex-grow: 1; /* Đẩy nội dung lên trên */
+}
+
+/* Căn avatar, tên, description xuống dưới và lề trái */
+.userInfo {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -91,4 +110,44 @@
   font-size: 0.9rem;
   color: grey;
   margin-top: 0; /* Loại bỏ khoảng cách trên của mô tả */
+}
+
+/* 🔥 Tối ưu Responsive Feedback Section */
+@media (max-width: 768px) {
+  .community-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .community-text {
+    width: 100%;
+    text-align: center; /* Căn giữa nội dung trên mobile */
+  }
+
+  .community-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  .userInfo {
+    flex-direction: column; /* Đưa avatar & tên xuống dưới trên mobile */
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .avatar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .name {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
 }

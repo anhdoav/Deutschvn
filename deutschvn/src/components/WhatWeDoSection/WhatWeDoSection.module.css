@@ -3,53 +3,92 @@
 .section {  
   padding-top: 3rem;
   text-align: center;
+  overflow: hidden; /* Ngăn chặn thanh cuộn không cần thiết */
 }
 
 .section h2 {
-  font-size: 2rem;
+  font-size: 1.8rem; /* Giảm nhẹ kích thước */
   font-weight: bold;
   color: black;
   margin-bottom: 1rem;
 }
 
 .section p {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Thu nhỏ chữ */
   color: rgb(115, 110, 110);
   margin-bottom: 2rem;
-  line-height: 1.6;
-  font-family: 'Itim', cursive; /* Font Itim cho chữ nhỏ */
+  line-height: 1.5;
+  font-family: 'Itim', cursive;
 }
 
+/* GRID CHO PC (4 CỘT) */
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Chia thành 4 cột */
-  gap: 5rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
   justify-content: center;
   align-items: start;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
+/* GRID CHO TABLET (2 CỘT) */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* GRID CHO MOBILE (HIỂN THỊ 2 CARD, LƯỚT NGANG) */
+@media (max-width: 768px) {
+  .grid {
+    display: flex;
+    flex-wrap: nowrap; /* Không xuống dòng, cho phép lướt ngang */
+    overflow-x: auto; /* Bật cuộn ngang */
+    gap: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    scroll-snap-type: x mandatory; /* Giúp lướt mượt hơn */
+    scroll-padding-left: 1rem; /* Đảm bảo bắt đầu từ card đầu tiên */
+  }
+
+  .card {
+    flex: 0 0 auto; /* Không co lại */
+    width: 45%; /* Mỗi card chiếm 45% chiều rộng */
+    max-width: 200px; /* Giới hạn kích thước */
+    scroll-snap-align: start; /* Giữ card vào sát lề trái khi lướt */
+  }
+}
+
+/* CARD */
 .card {
   text-align: center;
+  background: white;
+  padding: 1rem; /* Giảm padding */
+  border-radius: 10px; /* Giảm độ bo góc */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e0e0e0;
 }
 
 .card img {
-  width: 200px; /* Kích thước ảnh hợp lý */
+  width: 120px; /* Giảm kích thước ảnh */
   height: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .card h3 {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Thu nhỏ tiêu đề */
   font-weight: bold;
   color: black;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .card p {
-  font-size: 1rem;
+  font-size: 0.85rem; /* Giảm kích thước chữ */
   color: grey;
-  line-height: 1.5;
-  font-family: 'Itim', cursive; /* Font Itim cho chữ nhỏ */
+  line-height: 1.4;
+  font-family: 'Itim', cursive;
 }
