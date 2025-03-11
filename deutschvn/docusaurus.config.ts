@@ -98,7 +98,7 @@ const config: Config = {
       title: 'Deutsch.vn',
       logo: {
         alt: 'Deutsch.vn',
-        src: 'img/blank.png',
+        src: 'img/avt.png',
       },
       items: [
         {
