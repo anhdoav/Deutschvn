@@ -41,10 +41,10 @@ export default function Home(): ReactNode {
         buttonText="Mach mit!"
         highlights={[
           { title: "Miễn phí", icon: "/img/02.jpg" },
-          { title: "An toàn", icon: "/img/03.jpg" },
-          { title: "Hiệu quả", icon: "/img/04.jpg" },
+          { title: "An toàn", icon: "/img/04.jpg" },
+          { title: "Hiệu quả", icon: "/img/03.jpg" },
         ]}
-        backgroundImage="/img/01.jpg" /* Ảnh nền */
+        backgroundImage="/img/1.png" /* Ảnh nền */
       />
 
       {/* Phần Community Section */}
