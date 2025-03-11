@@ -171,6 +171,10 @@ const config: Config = {
               label: 'Liên hệ',
               href: '/contact',
             },
+            {
+              label: 'Test',
+              href: '/Ubung.js',
+            },
           ],
         },
       ],
