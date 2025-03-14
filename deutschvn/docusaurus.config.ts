@@ -105,19 +105,19 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialA1Sidebar',
           position: 'left',
-          label: 'A1 Niveau',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialA2Sidebar',
-          position: 'left',
-          label: 'A2 Niveau',
+          label: 'A Niveau',
         },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialB1Sidebar',
           position: 'left',
-          label: 'B1 Niveau',
+          label: 'B Niveau',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialBaiTapSidebar',
+          position: 'left',
+          label: 'Bài Tập',
         },
         {
           type: 'docSidebar',
