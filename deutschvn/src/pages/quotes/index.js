@@ -8,42 +8,42 @@ import styles from './imageGalleryDemo.module.css'; // Import custom CSS (create
 
 const images = [
   {
-    src: 'https://images.unsplash.com/photo-1528721071427-cab7de8e8050?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: '/img/quotes/1.png',
     alt: 'Hành trình của chúng tôi',
     title: 'Hành trình khám phá của chúng tôi',
     description: 'Khám phá những miền đất mới, gặp gỡ những con người thú vị.',
     link: '/family-therapy',
   },
   {
-    src: 'https://images.unsplash.com/photo-1512764161209-b11083080ce5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: '/img/quotes/2.png',
     alt: 'Group Counseling',
     title: 'Group Counseling',
     description: 'Building connections and sharing experiences.',
     link: '/group-counseling',
   },
   {
-    src: 'https://images.unsplash.com/photo-1485831852498-9db4e9338ce6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: '/img/quotes/3.png',
     alt: 'Emotional Support',
     title: 'Emotional Support',
     description: 'Providing care and understanding in difficult times.',
     link: '/emotional-support',
   },
   {
-    src: 'https://images.unsplash.com/photo-1528721071427-cab7de8e8050?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: '/img/quotes/4.png',
     alt: 'Family Therapy',
     title: 'Family Therapy',
     description: 'Supporting families through meaningful conversations.',
     link: '/family-therapy',
   },
   {
-    src: 'https://images.unsplash.com/photo-1686180381147-d378da192cc0?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: '/img/quotes/5.png',
     alt: 'Group Counseling',
     title: 'Group Counseling',
     description: 'Building connections and sharing experiences.',
     link: '/group-counseling',
   },
   {
-    src: 'https://images.unsplash.com/photo-1523748889156-ad499aad0d69?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: '/img/quotes/6.png',
     alt: 'Emotional Support',
     title: 'Emotional Support',
     description: 'Providing care and understanding in difficult times.',
@@ -60,8 +60,8 @@ function ImageGalleryDemo() {
 
         {/* Render the ImageGallery component with custom props */}
         <ImageGallery
-          title="Hành trình của chúng tôi"
-          description="Khám phá những miền đất mới, gặp gỡ những con người thú vị."
+          title="Deutsch.vn"
+          description=""
           images={images}
           lightboxLinkText="Tham gia ngay!"
           titleColor="#2f4f4f"          // Adaptive title color for light mode

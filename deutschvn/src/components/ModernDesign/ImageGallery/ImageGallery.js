@@ -43,7 +43,6 @@ const ImageGallery = ({
           <div
             key={index}
             className={`${styles.imageWrapper} ${index === 0 ? styles.focusImage : ''}`}
-            onClick={() => openLightbox(image)}
           >
             <img src={image.src} alt={image.alt} className={styles.image} />
             <div className={styles.zoomIcon}><FaSearchPlus /></div> {/* Zoom icon overlay */}
